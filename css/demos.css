@@ -21,6 +21,7 @@
 
 .demo .button {
   margin-bottom: 0.8em;
+
 }
 
 
@@ -41,8 +42,8 @@
 .element-item {
   position: relative;
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 45px;
+  height: 45px;
   margin: 5px;
   padding: 10px;
   background: none;
