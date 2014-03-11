@@ -29,10 +29,9 @@ body {
 
 #hero {}
 .container{
-	width:100%;
-	margin-top:50px;
+	width:80%;
+	margin:0 auto;
 	border: solid white 4px;
-	height: 560px;	
 }
 
 .primary-content{
