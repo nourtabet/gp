@@ -13,7 +13,7 @@ green #1FB
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-}
+} 
 
 body {
 	width: 1024px;
@@ -23,7 +23,7 @@ body {
   font-size: 15px;
   line-height: 1.5;
   color: #EEE;
-  background-image:url(../img/global_room_b&w.jpg);
+  background-image:url(../../../Dropbox/1-thesis/global%20party/global_party/img/global_room_b&w.jpg);
   background-repeat:repeat-y;
   background-size: 100%;
 }
@@ -54,10 +54,10 @@ pre {
 /* metafizzy logo */
 @font-face {
   font-family: 'Metafizzy Logo';
-  src: url('../fonts/metafizzylogo-regular.eot');
-  src: url('../fonts/metafizzylogo-regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/metafizzylogo-regular.woff') format('woff'),
-       url('../fonts/metafizzylogo-regular.ttf') format('truetype');
+  src: url('../../../Dropbox/1-thesis/global party/global_party/fonts/metafizzylogo-regular.eot');
+  src: url('../../../Dropbox/1-thesis/global party/global_party/fonts/metafizzylogo-regular.eot?#iefix') format('embedded-opentype'),
+url('../../../Dropbox/1-thesis/global party/global_party/fonts/metafizzylogo-regular.woff') format('woff'),
+url('../../../Dropbox/1-thesis/global party/global_party/fonts/metafizzylogo-regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
