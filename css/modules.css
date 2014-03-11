@@ -5,10 +5,12 @@
 .button {
   display: inline-block;
   padding: 0.5em 1.0em;
-  border:solid 3px white;
+  border-right:solid 3px white;
+  border-bottom:solid 3px white;
   color: white;
   font-weight: 500;
   cursor: pointer;
+  float:left;
 }
 
 .button:hover {
