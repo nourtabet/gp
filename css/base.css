@@ -30,6 +30,8 @@ body {
 #hero {}
 .container{
 	width:80%;
+	height: 400px;
+	overflow:scroll;
 	margin:0 auto;
 	border: solid white 4px;
 }
