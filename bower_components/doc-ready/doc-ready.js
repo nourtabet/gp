@@ -67,3 +67,12 @@ if ( typeof define === 'function' && define.amd ) {
 }
 
 })( this );
+
+
+$container.isotope({
+  layoutMode: 'spineAlign',
+  spineAlign: {
+    gutterWidth: 20
+  },
+  // options...
+});

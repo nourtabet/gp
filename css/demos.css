@@ -6,12 +6,21 @@
 
 .isotope{
  width: 50%;
- margin: 0 auto;	
+ margin: -30px auto;
 }
 
 .demo .button {
   margin-bottom: 0.8em;
 
+}
+
+.logo {
+	position: relative;
+	width: 30%;
+	margin: 50px auto;
+	}
+.logo img {
+	width:100%;
 }
 
 
@@ -32,14 +41,26 @@
 .element-item {
   position: relative;
   float: left;
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   margin: 5px;
   padding: 10px;
   background: none;
-  color: #262524;
   border:solid 3px white;
+  overflow:hidden;
 }
+.element-item button {
+	background:none;
+	border:none;
+	color: white;
+	font-weight:400;
+	font-size:10px;
+	letter-spacing:1px;
+	margin-left:-20px;
+	text-align:center;
+	}
+
+	
 
 .element-item > * {
   margin: 0;

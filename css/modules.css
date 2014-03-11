@@ -5,12 +5,13 @@
 .button {
   display: inline-block;
   padding: 0.5em 1.0em;
-  border-right:solid 3px white;
-  border-bottom:solid 3px white;
+  border-right:solid 2px white;
+  border-bottom:solid 2px white;
   color: white;
   font-weight: 500;
   cursor: pointer;
   float:left;
+  letter-spacing:1px;
 }
 
 .demo .button:first-child {
