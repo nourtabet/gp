@@ -13,6 +13,11 @@
   float:left;
 }
 
+.demo .button:first-child {
+background-color:white;
+color:black;
+}
+
 .button:hover {
   background-color: white;
   color: black;
