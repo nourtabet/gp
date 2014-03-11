@@ -1,0 +1,117 @@
+/*
+
+COLORS
+
+link orange #FB4
+blue #4BF
+green #1FB
+
+
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	width: 1024px;
+	height:690px;
+	margin: 30px auto;
+  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #EEE;
+  background-image:url(../img/global_room_b&w.jpg);
+  background-repeat:repeat-y;
+  background-size: 100%;
+}
+
+#hero {}
+.container{
+	width:80%;
+	margin-top:50px;
+	border: solid white 4px;
+	height: 560px;	
+}
+
+.primary-content{
+	}
+
+/* margins */
+h1, h2, h3, h4, h5, h6,
+p,
+ol, ul,
+pre {
+  margin-top: 0;
+  margin-bottom: 1.0em;
+}
+
+/* Fonts
+------------------------- */
+
+/* metafizzy logo */
+@font-face {
+  font-family: 'Metafizzy Logo';
+  src: url('../fonts/metafizzylogo-regular.eot');
+  src: url('../fonts/metafizzylogo-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/metafizzylogo-regular.woff') format('woff'),
+       url('../fonts/metafizzylogo-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ---- links ---- */
+
+a,
+a code {
+  color: #FB4;
+  text-decoration: none;
+}
+
+a:hover,
+a:hover code {
+  color: #4BF;
+}
+
+a:active,
+a:active code {
+  color: #1FB;
+  background: black;
+}
+
+/* ---- headers ---- */
+
+h1, h2, h3, h4 {
+  line-height: 1.25;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.65em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+}
+
+/* ---- lists ---- */
+
+ul, ol {
+  padding-left: 1.8em;
+}
+
