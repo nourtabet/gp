@@ -34,7 +34,6 @@ color:black;
   	letter-spacing:1px;
 	}
 
-
 .button:hover {
   background-color: white;
   color: black;
@@ -49,7 +48,6 @@ color:black;
 .button.is-checked {
   color: black;
 }
-
 
 /* hide radio inputs */
 .button input[type="radio"] { display: none; }
