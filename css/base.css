@@ -52,18 +52,18 @@ pre {
 
 a,
 a code {
-  color: #FB4;
+  color: white;
   text-decoration: none;
 }
 
 a:hover,
 a:hover code {
-  color: #4BF;
+  color:#999;
 }
 
 a:active,
 a:active code {
-  color: #1FB;
+  color: white;
   background: black;
 }
 
@@ -101,3 +101,8 @@ ul, ol {
   padding-left: 1.8em;
 }
 
+footer {
+	color: white;
+}
+
+footer a:{color: white;}
