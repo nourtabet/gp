@@ -17,31 +17,28 @@
 </head>
 <body data-page="index">
 
-    <div id="hero">
-          
-
+    <div id="hero">        
+    
   <div class="primary-content container">
     <div class="demo">
                
       <div class="filters button-group js-radio-button-group">
         <label class="button">
-          <input type="radio" name="filter" value="*" checked="checked" /> ALL
-        </label>
+          <input type="radio" name="filter" value="*" checked="checked" />ALL</label>
         <label class="button">
-          <input type="radio" name="filter" value=".asia" /> ASIA
-        </label>
+          <input type="radio" name="filter" value=".asia" />ASIA</label>
         <label class="button">
-          <input type="radio" name="filter" value=".europe" /> EUROPE
-        </label> 
+          <input type="radio" name="filter" value=".europe" />EUROPE</label> 
         <label class="button">
-          <input type="radio" name="filter" value=".america" /> AMERICA
-        </label>
-        
-        
+          <input type="radio" name="filter" value=".america" />AMERICA</label>     
     <!-- <label class="button">
           <input type="radio" name="filter" value="ium" /> name ends with &ndash;ium
         </label>-->
       </div>
+      <div class="all">
+      		<audio class="sound"id="globalparty" src="audio_recordings/global_party.mp3"></audio>
+  			<button onclick="document.getElementById('globalparty').play()">PLAY</button><br>
+  			<button onclick="document.getElementById('globalparty').pause()">STOP</button>      
        </div>
 		
         <div class="logo">
@@ -80,7 +77,7 @@
           <div class="element-item europe " data-category="transition">
            <audio id="sweden" src="audio_recordings/5-omar_sweden.mp3"></audio>
 				<div>
-  					<button onclick="document.getElementById('sweden').play()"><p>STOCKHOLM</p></button>
+  					<button onclick="document.getElementById('sweden').play()"><p>STOCK-<br>HOLM</p></button>
   				</div>
           </div>
         
@@ -94,14 +91,14 @@
           <div class="element-item europe " data-category="alkali">
           <audio id="london" src="audio_recordings/7-carl_london.mp3"></audio>
 				<div>
-  					<button onclick="document.getElementById('london').play()">LONDON</button>
+  					<button onclick="document.getElementById('london').play()">LON-<br>DON</button>
   				</div>
           </div>
         
           <div class="element-item europe " data-category="transition">
            <audio id="florence" src="audio_recordings/8-amani_florence.mp3"></audio>
 				<div>
-  					<button onclick="document.getElementById('florence').play()"><p>FLORENCE</p></button>
+  					<button onclick="document.getElementById('florence').play()"><p>FLO-<br>RENCE</p></button>
   				</div>
           </div>
         
@@ -122,7 +119,7 @@
           <div class="element-item america " data-category="post-transition">
              <audio id="montreal" src="audio_recordings/11-mayssa_montreal.mp3"></audio>
 				<div>
-  					<button onclick="document.getElementById('montreal').play()"><p>MONTREAL</p></button>
+  					<button onclick="document.getElementById('montreal').play()"><p>MONT-<br>REAL</p></button>
   				</div>
           </div>
         

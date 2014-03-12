@@ -19,6 +19,26 @@ background-color:white;
 color:black;
 }
 
+.all button{
+	display: inline-block;
+	background-color:transparent;
+  	padding: 0.6em 0;
+  	border-right:solid 2px white;
+  	border-bottom:solid 2px white;
+	border-left:none;
+	border-top:none;
+  	color: white;
+	width:45px;
+  	font-weight: 500;
+  	cursor: pointer;
+  	letter-spacing:1px;
+	}
+
+.all button:hover {
+  background-color: white;
+  color: black;
+}
+
 .button:hover {
   background-color: white;
   color: black;
