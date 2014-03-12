@@ -103,6 +103,9 @@ ul, ol {
 
 footer {
 	color: white;
+	font-weight:400;
+	font-size:8px;
+	margin: 5px 77px;
 }
 
 footer a:{color: white;}
