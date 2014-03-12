@@ -34,14 +34,6 @@ color:black;
   	letter-spacing:1px;
 	}
 
-.all button:hover {
-  background-color: white;
-  color: black;
-}
-
-.all button:active {
-  background-color: transparent;
-}
 
 .button:hover {
   background-color: white;
