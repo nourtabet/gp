@@ -28,11 +28,13 @@ color:black;
 	border-left:none;
 	border-top:none;
   	color: white;
-	width:45px;
+	width:44px;
   	font-weight: 500;
   	cursor: pointer;
   	letter-spacing:1px;
 	}
+
+
 
 .button:hover {
   background-color: white;
