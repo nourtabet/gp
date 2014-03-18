@@ -39,14 +39,27 @@
       		<audio class="sound"id="globalparty" src="audio_recordings/global_party.mp3"></audio>
   			<button onclick="document.getElementById('globalparty').play()">PLAY</button><br>
   			<button onclick=
-"document.getElementById('globalparty','jaddah','qatar','dubai','beirut','sweden','paris','london','nyc','montreal','vienna','florence').pause()">STOP</button>      
+"document.getElementById('globalparty').pause();
+document.getElementById('jaddah').pause()
+document.getElementById('qatar').pause()
+document.getElementById('dubai').pause()
+document.getElementById('beirut').pause()
+document.getElementById('sweden').pause()
+document.getElementById('vienna').pause()
+document.getElementById('paris').pause()
+document.getElementById('florence').pause()
+document.getElementById('london').pause()
+document.getElementById('montreal').pause()
+document.getElementById('nyc').pause()
+
+">STOP</button>      
        </div>
 		
         <div class="logo">
      <img src="img/logo.png">
       	</div>
       
-      <div class="isotope">
+      <div class="isotope" id="globalparty">
         
           <div class="element-item transition asia " data-category="transition">
  			<audio class="sound"id="jaddah" src="audio_recordings/1-joanna_jaddah.mp3"></audio>
