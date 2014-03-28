@@ -6,6 +6,7 @@
   padding: 0.5em 1.0em;
   border-right:solid 3px white;
   border-bottom:solid 3px white;
+<<<<<<< HEAD
   color: white;
   font-size:12px;
   font-weight: 500;
@@ -20,15 +21,21 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
   padding: 0.5em 1.0em;
   border-right:solid 3px white;
   border-bottom:solid 3px white;
+=======
+>>>>>>> FETCH_HEAD
   color: white;
   font-size:12px;
   font-weight: 500;
   cursor: pointer;
   float:left;
+<<<<<<< HEAD
   letter-spacing:2px; 
   background:transparent;
   text-decoration:none;
   text-wrap:none;
+=======
+  letter-spacing:2px;
+>>>>>>> FETCH_HEAD
 }
 
 input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {

@@ -18,9 +18,15 @@ body {
 
 #hero {}
 .container{
+<<<<<<< HEAD
 	width:80%;
 	height: 400px;
 	margin:80px auto;
+=======
+	width:60%;
+	height: 700px;
+	margin:130px auto;
+>>>>>>> FETCH_HEAD
 	border: solid white 3px;
 }
 
@@ -50,8 +56,12 @@ p{
 }
 
 h3 {
+<<<<<<< HEAD
 	font-family:Consolas, "Andale Mono", "Lucida Console", 
 	"Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+=======
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+>>>>>>> FETCH_HEAD
 	font-weight:100;
 	letter-spacing:1px;
 	color:white;
@@ -60,7 +70,11 @@ h3 {
 	}
 	
 .folder {
+<<<<<<< HEAD
 	width:270px;
+=======
+	width:370px;
+>>>>>>> FETCH_HEAD
 	margin-top:-48px;
 	margin-bottom:0px;	
 	margin-right:-3px;
