@@ -1,0 +1,223 @@
+<!doctype html>
+<!--[if lte IE 8]>     <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class=""> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Sound Mapping" />
+
+  <title>Global Party</title>    
+      <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
+      <link rel="stylesheet" href="css/base.css" />
+      <link rel="stylesheet" href="css/demos.css" />
+      <link rel="stylesheet" href="css/modules.css" />
+ 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   
+</head>
+
+<body data-page="index">
+
+    <div id="hero">        
+    
+  <div class="container">
+       <h3 class="folder">09.25.2013 at 01:15:45PM GMT</h3>
+		
+        <div class="demo">
+                        
+      <div class="filters button-group js-radio-button-group">
+        <label class="button">
+          <input type="radio" name="filter" value="*" checked="checked" /><audio class="sound"id="globalparty" src="audio_recordings/global_party.mp3"></audio>
+  			<button onclick="document.getElementById('globalparty').play()">PLAY</button></label>
+        <label class="button">
+          <input type="radio" name="filter" value=".asia" />
+          <button onclick="document.getElementById('qatar').play();
+ document.getElementById('dubai').play();         
+ document.getElementById('beirut').play();">ASIA</button></label>
+        <label class="button">
+          <input type="radio" name="filter" value=".europe" />
+          <button onclick="document.getElementById('paris').play();
+ document.getElementById('london').play();         
+ document.getElementById('florence').play(); 
+ document.getElementById('sweden').play(); 
+ document.getElementById('vienna').play();">EUROPE</button></label> 
+        <label class="button">
+          <input type="radio" name="filter" value=".america" /> <button onclick="document.getElementById('nyc').play();
+ document.getElementById('montreal').play(); ">   
+          AMERICA</button></label>  </div>   
+         
+      <div class="all">
+  			<button onclick=
+                    "document.getElementById('globalparty').pause();
+                    document.getElementById('jaddah').pause()
+                    document.getElementById('qatar').pause()
+                    document.getElementById('dubai').pause()
+                    document.getElementById('beirut').pause()
+                    document.getElementById('sweden').pause()
+                    document.getElementById('vienna').pause()
+                    document.getElementById('paris').pause()
+                    document.getElementById('florence').pause()
+                    document.getElementById('london').pause()
+                    document.getElementById('montreal').pause()
+                    document.getElementById('nyc').pause()
+
+">STOP</button>      
+       		</div>      
+
+        <div class="logo">
+     <img src="img/logo.png">
+      	</div>
+      
+      <div class="isotope" id="globalparty">
+        
+          <div class="element-item transition asia " data-category="transition">
+ 			<audio id="jaddah" src="audio_recordings/1-joanna_jaddah.mp3"></audio>
+  					<button onclick="document.getElementById('jaddah').play()"><p class="jaddah">JADDAH</p></button>
+          </div>
+        
+          <div class="element-item asia " data-category="metalloid">
+            <audio id="qatar" src="audio_recordings/2-myro_qatar.mp3"></audio>
+				<div >
+  					<button onclick="document.getElementById('qatar').play()"><p class="qatar">DOHA</p></button>
+  				</div>
+          </div>
+        
+          <div class="element-item asia " data-category="post-transition">
+            <audio id="dubai" src="audio_recordings/3-bruno_dubai.mp3"></audio>
+				<div>
+  					<button onclick="document.getElementById('dubai').play()"><p class="dubai">DUBAI</p></button>
+  				</div>
+          </div>
+        
+          <div class="element-item asia " data-category="post-transition">
+            <audio id="beirut" src="audio_recordings/4-johanna_beirut.mp3"></audio>
+				<div>
+  					<button onclick="document.getElementById('beirut').play()"><p class="beirut">BEIRUT</p></button>
+  				</div>
+          </div>
+        
+          <div class="element-item europe " data-category="transition">
+           <audio id="sweden" src="audio_recordings/5-omar_sweden.mp3"></audio>
+				<div>
+  					<button onclick="document.getElementById('sweden').play()"><p>STOCK-<br>HOLM</p></button>
+  				</div>
+          </div>
+        
+          <div class="element-item europe " data-category="alkali">
+           <audio id="vienna" src="audio_recordings/6-imad_vienna.mp3"></audio>
+				<div>
+  					<button onclick="document.getElementById('vienna').play()"><p>VIENNA</p></button>
+  				</div>
+          </div>
+        
+          <div class="element-item europe " data-category="alkali">
+          <audio id="london" src="audio_recordings/7-carl_london.mp3"></audio>
+				<div>
+  					<button onclick="document.getElementById('london').play()"><p class="london">LON-<br>DON</p></button>
+  				</div>
+          </div>
+        
+          <div class="element-item europe " data-category="transition">
+           <audio id="florence" src="audio_recordings/8-amani_florence.mp3"></audio>
+				<div>
+  					<button onclick="document.getElementById('florence').play()"><p class="florence">FLO-<br>RENCE</p></button>
+  				</div>
+          </div>
+        
+          <div class="element-item europe " data-category="alkaline-earth">
+            <audio id="paris" src="audio_recordings/9-danah_paris.mp3"></audio>
+				<div>
+  					<button onclick="document.getElementById('paris').play()"><p class="paris">PARIS</p></button>
+  				</div>
+          </div>
+        
+          <div class="element-item america " data-category="transition">
+            <audio id="nyc" src="audio_recordings/10-ziad_nyc.mp3"></audio>
+				<div>
+  					<button onclick="document.getElementById('nyc').play()"><p class="nyc">NYC</p></button>
+  				</div>
+          </div>
+        
+          <div class="element-item america " data-category="post-transition">
+             <audio id="montreal" src="audio_recordings/11-mayssa_montreal.mp3"></audio>
+				<div>
+  					<button onclick="document.getElementById('montreal').play()"><p>MONT-<br>REAL</p></button>
+  				</div>
+          </div>
+        
+          <!-- <div class="element-item theparty " data-category="metalloid">
+           <audio id="globalparty" src="audio recordings/global party.mp3"></audio>
+			<div>
+  					<button onclick="document.getElementById('globalparty').play()">Play the Audio</button>
+                    <button onclick="document.getElementById('globalparty').pause()">Pause the Audio</button>
+  				</div>
+          </div>-->	
+          
+         <!-- <div class="element-item theparty " data-category="metalloid">
+            <h3 class="name">Antimony</h3>
+            <p class="symbol">Sb</p>
+            <p class="number">51</p>
+            <p class="weight">121.76</p>
+          </div>-->
+      </div>
+    </div>
+
+  </div> 
+
+</div> 
+
+
+<!-- Isotope does NOT require jQuery. But it does make things easier -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.min.js"><\/script>')</script>
+
+
+  <!-- DEV MODE - including each .js file -->
+    <script src="bower_components/eventie/eventie.js"></script>
+    <script src="bower_components/doc-ready/doc-ready.js"></script>
+    <script src="bower_components/get-style-property/get-style-property.js"></script>
+    <script src="bower_components/eventEmitter/EventEmitter.js"></script>
+    <script src="bower_components/get-size/get-size.js"></script>
+    <script src="bower_components/jquery-bridget/jquery.bridget.js"></script>
+    <script src="bower_components/matches-selector/matches-selector.js"></script>
+    <script src="bower_components/outlayer/item.js"></script>
+    <script src="bower_components/outlayer/outlayer.js"></script>
+    <script src="bower_components/masonry/masonry.js"></script>
+    <script src="bower_components/isotope/js/item.js"></script>
+    <script src="bower_components/isotope/js/layout-mode.js"></script>
+    <script src="bower_components/isotope/js/isotope.js"></script>
+    <script src="bower_components/isotope/js/layout-modes/vertical.js"></script>
+    <script src="bower_components/isotope/js/layout-modes/fit-rows.js"></script>
+    <script src="bower_components/isotope/js/layout-modes/masonry.js"></script>
+    <script src="bower_components/isotope-cells-by-column/cells-by-column.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/pages/filtering.js"></script>
+    <script src="js/pages/index.js"></script>
+	<script>$(document).ready(function(){ 
+    $("#play-bt").click(function(){
+        $("#audio-player")[0].play();
+    })
+
+    $("#stop-bt").click(function(){
+        $("#audio-player")[0].pause();
+        $("#audio-player")[0].currentTime = 0;
+    })
+})
+
+
+$(document).ready(function(){
+    $("#play-bt1").click(function(){
+        $("#audio-player1")[0].play();
+    })
+
+    $("#stop-bt1").click(function(){
+        $("#audio-player1")[0].pause();
+        $("#audio-player1")[0].currentTime = 0;
+    })
+})
+
+
+</script>
+
+</body>
+</html>
