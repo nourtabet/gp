@@ -16,8 +16,7 @@
 .logo {
 	position: relative;
 	width: 150px;
-	margin: -10px ;
-	margin-left: 310px ;
+	margin: -10px auto;
 	text-align:center;
 	}
 .logo img {
