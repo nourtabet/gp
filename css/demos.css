@@ -5,7 +5,11 @@
 	margin: 0 auto;}
 
 .isotope{
+<<<<<<< HEAD
  width: 70%;
+=======
+ width: 40%;
+>>>>>>> FETCH_HEAD
  margin: 50px auto;
  margin-left: 150px ;	
 
@@ -15,10 +19,15 @@
 
 .logo {
 	position: relative;
+<<<<<<< HEAD
 	width: 150px;
 	margin: -10px ;
 	margin-left: 310px ;
 	text-align:center;
+=======
+	width: 30%;
+	margin: 50px auto;
+>>>>>>> FETCH_HEAD
 	}
 .logo img {
 	width:100%;
@@ -42,8 +51,13 @@
 .element-item button{
   position: relative;
   float: left;
+<<<<<<< HEAD
   width: 70px;
   height: 70px;
+=======
+  width: 90px;
+  height: 90px;
+>>>>>>> FETCH_HEAD
   margin: 5px;
   padding: 10px;
   background: none;
