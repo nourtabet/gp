@@ -18,7 +18,7 @@ body {
 
 #hero {}
 .container{
-	width:730px;
+	width:90%;
 	height: 450px;
 	margin:70px auto;
 	border: solid white 3px;
@@ -63,7 +63,7 @@ h3 {
 	
 .folder {
 	width:280px;
-	margin-top:-48px;
+	margin-top:-42px;
 	margin-bottom:0px;	
 	margin-right:-3px;
 	 border-left:solid 3px white;
