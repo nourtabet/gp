@@ -15,28 +15,38 @@
  	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
    
 </head>
+
 <body data-page="index">
 
     <div id="hero">        
     
-  <div class="primary-content container">
-    <div class="demo">
-               
+  <div class="container">
+       <h3 class="folder">09.25.2013 at 01:15:45PM GMT</h3>
+		
+        <div class="demo">
+                        
       <div class="filters button-group js-radio-button-group">
         <label class="button">
-          <input type="radio" name="filter" value="*" checked="checked" />ALL</label>
+          <input type="radio" name="filter" value="*" checked="checked" /><audio class="sound"id="globalparty" src="audio_recordings/global_party.mp3"></audio>
+  			<button onclick="document.getElementById('globalparty').play()">PLAY</button></label>
         <label class="button">
-          <input type="radio" name="filter" value=".asia" />ASIA</label>
+          <input type="radio" name="filter" value=".asia" />
+          <button onclick="document.getElementById('qatar').play();
+ document.getElementById('dubai').play();         
+ document.getElementById('beirut').play();">ASIA</button></label>
         <label class="button">
-          <input type="radio" name="filter" value=".europe" />EUROPE</label> 
+          <input type="radio" name="filter" value=".europe" />
+          <button onclick="document.getElementById('paris').play();
+ document.getElementById('london').play();         
+ document.getElementById('florence').play(); 
+ document.getElementById('sweden').play(); 
+ document.getElementById('vienna').play();">EUROPE</button></label> 
         <label class="button">
-          <input type="radio" name="filter" value=".america" />AMERICA</label>  </div>   
-    <!-- <label class="button">
-          <input type="radio" name="filter" value="ium" /> name ends with &ndash;ium
-        </label>-->
+          <input type="radio" name="filter" value=".america" /> <button onclick="document.getElementById('nyc').play();
+ document.getElementById('montreal').play(); ">   
+          AMERICA</button></label>  </div>   
+         
       <div class="all">
-      		<audio class="sound"id="globalparty" src="audio_recordings/global_party.mp3"></audio>
-  			<button onclick="document.getElementById('globalparty').play()">PLAY</button><br>
   			<button onclick=
                     "document.getElementById('globalparty').pause();
                     document.getElementById('jaddah').pause()
@@ -54,7 +64,6 @@
 ">STOP</button>      
        		</div>      
 
-		
         <div class="logo">
      <img src="img/logo.png">
       	</div>
@@ -62,8 +71,8 @@
       <div class="isotope" id="globalparty">
         
           <div class="element-item transition asia " data-category="transition">
- 			<audio class="sound"id="jaddah" src="audio_recordings/1-joanna_jaddah.mp3"></audio>
-  					<button onclick="document.getElementById('jaddah').play()"><p>JADDAH</p></button>
+ 			<audio id="jaddah" src="audio_recordings/1-joanna_jaddah.mp3"></audio>
+  					<button onclick="document.getElementById('jaddah').play()"><p class="jaddah">JADDAH</p></button>
           </div>
         
           <div class="element-item asia " data-category="metalloid">
@@ -150,7 +159,6 @@
             <p class="number">51</p>
             <p class="weight">121.76</p>
           </div>-->
-      
       </div>
     </div>
 
@@ -158,10 +166,6 @@
 
 </div> 
 
-  <footer>      
-      <a href="http://nourtabetplays.com" target="_blank">Post-geographic maps</a>
-      <span class="copyright">&copy; 2014</span>
-  </footer>
 
 <!-- Isotope does NOT require jQuery. But it does make things easier -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

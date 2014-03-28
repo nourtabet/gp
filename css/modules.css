@@ -1,37 +1,46 @@
 
 
 /* ---- button ---- */
-
-.button {
+button {-webkit-appearance: none;
   display: inline-block;
   padding: 0.5em 1.0em;
-  border-right:solid 2px white;
-  border-bottom:solid 2px white;
+  border-right:solid 3px white;
+  border-bottom:solid 3px white;
+  border-top:none;
+  border-left:none;
   color: white;
+  font-size:12px;
   font-weight: 500;
   cursor: pointer;
   float:left;
-  letter-spacing:1px;
+  letter-spacing:2px;
+  background:transparent;
+  text-decoration:none;
+
 }
 
-.demo .button:first-child {
-background-color:white;
-color:black;
-}
+.button {
+  }
+
+
 
 .all button{
+	-webkit-appearance: none;
 	display: inline-block;
 	background-color:transparent;
   	padding: 0.6em 0;
-  	border-right:solid 2px white;
-  	border-bottom:solid 2px white;
+  	border-right:solid 3px white;
+  	border-bottom:solid 3px white;
 	border-left:none;
 	border-top:none;
   	color: white;
-	width:44px;
+	font-size:12px;
+	width:66px;
+	height:35px;
   	font-weight: 500;
   	cursor: pointer;
-  	letter-spacing:1px;
+  	letter-spacing:2px;
+	margin-top:-3px;
 	}
 
 
@@ -41,15 +50,21 @@ color:black;
   color: black;
 }
 
-.button:active,
-.button.is-checked {
+button:hover {
   background-color: white;
   color: black;
 }
 
-.button.is-checked {
+.button:active, .button.is-checked {
+  background-color: white;
   color: black;
 }
+
+
+ button:active, button.is-checked{
+	background-color: white;
+  color: black; 
+ }
 
 /* hide radio inputs */
 .button input[type="radio"] { display: none; }
