@@ -1,55 +1,73 @@
 
 
 /* ---- button ---- */
-
 .button {
   display: inline-block;
   padding: 0.5em 1.0em;
-  border-right:solid 2px white;
-  border-bottom:solid 2px white;
+  border-right:solid 3px white;
+  border-bottom:solid 3px white;
   color: white;
+  font-size:12px;
   font-weight: 500;
   cursor: pointer;
   float:left;
-  letter-spacing:1px;
+  letter-spacing:2px;
+  background:transparent;
+  text-decoration:none;}
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  border-right:solid 3px white;
+  border-bottom:solid 3px white;
+  color: white;
+  font-size:12px;
+  font-weight: 500;
+  cursor: pointer;
+  float:left;
+  letter-spacing:2px; 
+  background:transparent;
+  text-decoration:none;
+  text-wrap:none;
 }
 
-.demo .button:first-child {
-background-color:white;
-color:black;
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+text-align: center;
+cursor:pointer;
+color: white;
+background: transparent;
+
 }
 
-.all button{
+.all button {
 	display: inline-block;
 	background-color:transparent;
   	padding: 0.6em 0;
-  	border-right:solid 2px white;
-  	border-bottom:solid 2px white;
+  	border-right:solid 3px white;
+  	border-bottom:solid 3px white;
 	border-left:none;
 	border-top:none;
   	color: white;
-	width:44px;
+	font-size:12px;
+	width:56px;
   	font-weight: 500;
   	cursor: pointer;
-  	letter-spacing:1px;
+  	letter-spacing:2px;
 	}
-
-
 
 .button:hover {
   background-color: white;
   color: black;
 }
 
-.button:active,
-.button.is-checked {
+.button:active, .button.is-checked {
   background-color: white;
   color: black;
 }
-
-.button.is-checked {
-  color: black;
-}
+ button:active{
+	background-color: white;
+  color: black; 
+ }
 
 /* hide radio inputs */
 .button input[type="radio"] { display: none; }
